@@ -10,4 +10,5 @@ Pod::Spec.new do |s|
   s.source_files = 'OnePassword.{h,m}'
   s.platform = :ios, "7.0"
   s.dependency 'React/Core'
+  s.dependency '1PasswordExtension'
 end
