@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/batphone/react-native-onepassword", :tag => '1.0.4'}
   s.source_files = 'OnePassword.{h,m}'
   s.platform = :ios, "7.0"
-  s.dependency 'React/Core'
+  s.dependency 'React'
   s.dependency '1PasswordExtension'
 end
